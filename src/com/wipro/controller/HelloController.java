@@ -17,7 +17,7 @@ public class HelloController {
 	@RequestMapping(value = "/hello", method = RequestMethod.POST)
 	public String sayHello(@ModelAttribute Hello hello, Map<String, String> map) {
 		map.put("msg", hello.getName());
-		return "hello";
+		return "hello karthick";
 	}
 }
 
